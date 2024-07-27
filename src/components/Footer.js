@@ -9,7 +9,7 @@ const Footer = () => {
             </div>
             <div className='footerContainer'>
                 <p>&#169;A Fihr Site</p>
-                <p>OtontoSmile - Consultorio Dentário</p>
+                <p>OdontoSmile - Consultorio Dentário</p>
 
             </div>
         </div>
