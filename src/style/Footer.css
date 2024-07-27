@@ -1,0 +1,10 @@
+.footer {
+    background: #223a66;
+}
+
+.footerContainer {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+}
