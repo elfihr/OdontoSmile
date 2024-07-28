@@ -2,12 +2,12 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
 }
 
 .service h6{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 
@@ -17,6 +17,9 @@
     width: 6.2rem;
     border: 1.5px solid #223a66;
     margin-bottom: 1rem;
+}
+.serviceTitle{
+    margin-bottom: 2rem;
 }
 
 .serviceTitle p{
