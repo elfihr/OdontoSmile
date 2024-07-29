@@ -18,9 +18,7 @@
     border: 1.5px solid #223a66;
     margin-bottom: 1rem;
 }
-.serviceTitle{
-    margin-bottom: 2rem;
-}
+
 
 .serviceTitle p{
     font-size: 1.2rem;
@@ -35,6 +33,7 @@
 }
 
 .serviceContainer{
+    height: 12rem;
     padding: 3rem ;
     box-shadow: -1px 9px 20px 0px rgba(0,0,0,0.25);
     transition: 0.3s;

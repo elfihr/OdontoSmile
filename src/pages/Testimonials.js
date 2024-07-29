@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/Testimonials.css'
 import { testimonials } from '../helper/helper'
+import { Fade } from "react-awesome-reveal";
 
 const Testimonials = () => {
     return (
@@ -15,15 +16,18 @@ const Testimonials = () => {
                 <div className='testimonialsWrapper'>
                     {testimonials.map((client, index) => {
                         return (
-                            <div key={index} className='testimonialsReview'>
-                                <div className='clientProfile dBlue'>
-                                    <img className='client ' src={client.image} alt='imagem de cliente' />
-                                    <h4>{client.name}
+                            <Fade>
+                                <div key={index} className='testimonialsReview'>
+                                    <div className='clientProfile dBlue'>
+                                        <img className='client ' src={client.image} alt='imagem de cliente' />
+                                        <h4>{client.name}
 
-                                    </h4>
+                                        </h4>
+                                    </div>
+                                    <p className='clientProfileDesciption '>"{client.description}"</p>
                                 </div>
-                                <p className='clientProfileDesciption '>"{client.description}"</p>
-                            </div>
+                            </Fade>
+                            
                         )
                     })}
                 </div>

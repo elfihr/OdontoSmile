@@ -14,19 +14,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Fade>
-        <Hero />
+      <Hero />
+      <Fade cascade damping={0.5}>
         <About />
-        <Service />
-        <Team />
-        <Testimonials />
-        <Contact />
-
       </Fade>
-
+      <Service />
+      <Team />
+      <Testimonials />
+      <Contact />
       <Footer />
-
-
     </div>
   );
 }

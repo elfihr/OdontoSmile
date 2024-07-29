@@ -93,7 +93,7 @@ export const services = [
     },{
         image:service02,
         title:'Manutenção de Dentes',
-        description:'Fazemos manutenção periodica dos dentes'
+        description:'Fazemos manutenção e prevenção periodica dos dentes'
     },{
         image:service03,
         title:'Implante de Dentes',
@@ -105,7 +105,7 @@ export const services = [
     },{
         image:service05,
         title:'Coroa Dentaria',
-        description:'Reforço ou recuperação de dente perdido'
+        description:'Serviço de Reforço ou recuperação de dente perdido'
     },{
         image:service06,
         title:'Preenchimento Dentario',
