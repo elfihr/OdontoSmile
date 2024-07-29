@@ -29,6 +29,8 @@
 
 }
 
+
+
 /* ====titleContainer==== */
 
 .top{
@@ -36,6 +38,12 @@
 }
 .botton{
     color:#223a66;
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .wrapperHero{

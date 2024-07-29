@@ -17,8 +17,8 @@ const Service = () => {
                     return (
                         <div key={index} className='serviceContainer'>                           
                                 <img src={service.image} alt='serviços' />
-                                <h6>{service.title}</h6>
-                                <p>{service.description}</p>
+                                <h6 className='dBlue'>{service.title}</h6>
+                                <p className='lBlue'>{service.description}</p>
                         </div>
                     )
                 })}

@@ -8,8 +8,8 @@ const Hero = () => {
 
             <div className='pimg1'>
                 <div className='titleContainer'>
-                    <h3 className='title top'>Seu sorriso,</h3>
-                    <h3 className='title botton'>Nossa Prioridade</h3>
+                    <h3 className='title botton'>Seu sorriso,</h3>
+                    <h3 className='title top'>Nossa Prioridade</h3>
                 </div>
 
             </div>
